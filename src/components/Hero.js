@@ -63,7 +63,7 @@ const Hero = () => {
           transition={{ delay: 0.6, duration: 0.6 }}
           className="text-slate-300 max-w-2xl mx-auto mb-6 text-lg"
         >
-          Computer Science student passionate about creating innovative web solutions 
+          Bachelor in Computer Science passionate about creating innovative web solutions 
           and automating workflows. Building technology that makes a difference.
         </motion.p>
 
