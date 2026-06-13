@@ -17,7 +17,7 @@ const Hero = () => {
       setCurrentRole((prev) => (prev + 1) % roles.length);
     }, 2500);
     return () => clearInterval(interval);
-  }, []);
+  }, [roles.length]); // <- Kjo është e vetmja ndryshim
 
   const IconComponent = roles[currentRole].icon;
 
