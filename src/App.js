@@ -34,7 +34,7 @@ function App() {
       {/* Footer */}
       <footer className="relative z-10 py-8 text-center text-gray-400 border-t border-white/10">
         <div className="max-w-7xl mx-auto px-4">
-          <p>© 2024 Alex Chen. Crafted with ❤️ using React & Tailwind CSS</p>
+          <p>©Crafted with ❤️ using React & Tailwind CSS</p>
         </div>
       </footer>
     </div>
