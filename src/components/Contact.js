@@ -47,7 +47,7 @@ const Contact = () => {
 
   const contactInfo = [
     { icon: Mail, text: 'mehanagenta@gmail.com', label: 'Email', link: 'mailto:mehanagenta@gmail.com' },
-    { icon: Phone, text: '+383 49 424 78', label: 'Phone', link: 'tel:+3834942478' },
+    { icon: Phone, text: '+383 49 427 478', label: 'Phone', link: 'tel:+3834942478' },
     { icon: MapPin, text: 'Vushtrri, Kosovo', label: 'Location' },
     { icon: Github, text: 'GentianaMehana', label: 'GitHub', link: 'https://github.com/GentianaMehana' },
     { icon: Linkedin, text: 'Gentiana Mehana', label: 'LinkedIn', link: 'https://www.linkedin.com/in/gentiana-mehana-6b63792a1' }

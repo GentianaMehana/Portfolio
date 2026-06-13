@@ -80,7 +80,7 @@ const Hero = () => {
           </div>
           <div className="flex items-center gap-2 text-slate-300 text-sm bg-slate-800/50 px-4 py-2 rounded-full border border-slate-700">
             <Phone size={14} className="text-cyan-400" />
-            <span>+383 49 424 78</span>
+            <span>+383 49 427 478</span>
           </div>
           <div className="flex items-center gap-2 text-slate-300 text-sm bg-slate-800/50 px-4 py-2 rounded-full border border-slate-700">
             <MapPin size={14} className="text-cyan-400" />
