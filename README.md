@@ -1,70 +1,89 @@
-# Getting Started with Create React App
+# Gentiana Mehana - Portfolio Website
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+**Live Demo:** [View Portfolio](https://gentiana-portfolio.netlify.app/)
 
-## Available Scripts
+## About
 
-In the project directory, you can run:
+This is my personal portfolio website showcasing my skills, projects, and experience as a Full Stack Developer. Built with modern web technologies to create an immersive and interactive user experience.
 
-### `npm start`
+## Features
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+- Modern Design - Clean, professional, and responsive layout
+- 3D Background - Interactive 3D elements using Three.js
+- Smooth Animations - Fluid animations with Framer Motion
+- Fully Responsive - Perfect on all devices
+- Performance Optimized - Fast loading and smooth scrolling
+- Contact Form - Working contact form with EmailJS integration
+- Project Showcase - Display my best work including MedPal and Bursat
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+## Technologies Used
 
-### `npm test`
+### Frontend
+- React 18 - UI Library
+- Tailwind CSS - Styling
+- Framer Motion - Animations
+- Three.js / React Three Fiber - 3D Graphics
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+### Backend / Services
+- EmailJS - Email functionality
+- Netlify - Hosting and Deployment
 
-### `npm run build`
+### Tools
+- Git and GitHub - Version control
+- npm - Package management
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+## Featured Projects
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+### MedPal - Healthcare Platform
+- Digital platform for managing clinics, doctors, and patients
+- Role-based access control (Clinic, Doctor, Patient)
+- Appointment scheduling and medical records management
+- Tech Stack: React 19, Supabase, Bootstrap 5, Chart.js
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+### Bursat - Scholarship Platform
+- Centralized scholarship aggregator for Kosovar students
+- Automated data collection with n8n
+- Real-time scholarship updates
+- Tech Stack: React, Tailwind CSS, Supabase, n8n
 
-### `npm run eject`
+## Installation and Setup
 
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
+1. Clone the repository
+   git clone https://github.com/GentianaMehana/Portfolio.git
+   cd Portfolio
 
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+2. Install dependencies
+   npm install
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
+3. Run the development server
+   npm start
 
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
+4. Build for production
+   npm run build
 
-## Learn More
+## Contact Form Setup
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
+To make the contact form work, add your EmailJS credentials in src/components/Contact.js:
 
-To learn React, check out the [React documentation](https://reactjs.org/).
+- Service ID: portfolio
+- Template ID: template_vtrn9ve
+- Public Key: gQpAgMUMEyNxbkcQa
 
-### Code Splitting
+## Deployment
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
+The site is deployed on Netlify. Any push to the main branch automatically triggers a new deployment.
 
-### Analyzing the Bundle Size
+## Contact
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
+- Email: mehanagenta@gmail.com
+- GitHub: GentianaMehana
+- LinkedIn: gentiana-mehana-6b63792a1
+- Location: Vushtrri, Kosovo
 
-### Making a Progressive Web App
+## License
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
+Copyright 2024 Gentiana Mehana. All rights reserved.
 
-### Advanced Configuration
+---
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+Star this repository if you like it!
