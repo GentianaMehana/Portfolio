@@ -1,6 +1,6 @@
 # Gentiana Mehana - Portfolio Website
 
-**Live Demo:** [View Portfolio].(https://gentianamehanaportfolio.netlify.app/)
+**Live Demo:** (https://gentianamehanaportfolio.netlify.app/)
 
 ## About
 
