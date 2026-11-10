@@ -1,89 +1,27 @@
-# Gentiana Mehana - Portfolio Website
+# Gentiana Mehana — Portfolio
 
-**Live Demo:** (https://gentianamehanaportfolio.netlify.app/)
+A responsive, single-page portfolio built with semantic HTML, modern CSS, and a small amount of vanilla JavaScript. There is no build step or package installation.
 
-## About
+The Work section includes the three public projects: Elsewhere — Prishtina, MedPal, and Bursat. Elsewhere uses three locally optimized photos featured in the live project, with photographer and license credits displayed beside each image. MedPal and Bursat use lazy-loaded frames to show their real deployed interfaces. Each project links to its live site and source repository. `netlify.toml` configures Netlify to publish the static site directly from the repository root.
 
-This is my personal portfolio website showcasing my skills, projects, and experience as a Full Stack Developer. Built with modern web technologies to create an immersive and interactive user experience.
+## Preview locally
 
-## Features
+Open `index.html` in a browser, or serve this folder with any static web server. For example:
 
-- Modern Design - Clean, professional, and responsive layout
-- 3D Background - Interactive 3D elements using Three.js
-- Smooth Animations - Fluid animations with Framer Motion
-- Fully Responsive - Perfect on all devices
-- Performance Optimized - Fast loading and smooth scrolling
-- Contact Form - Working contact form with EmailJS integration
-- Project Showcase - Display my best work including MedPal and Bursat
+```sh
+npx serve .
+```
 
-## Technologies Used
+## Publish
 
-### Frontend
-- React 18 - UI Library
-- Tailwind CSS - Styling
-- Framer Motion - Animations
-- Three.js / React Three Fiber - 3D Graphics
+The folder is ready for a static host such as Netlify, Vercel, or GitHub Pages. Deploy the contents of this directory as the site root.
 
-### Backend / Services
-- EmailJS - Email functionality
-- Netlify - Hosting and Deployment
+## Personal details
 
-### Tools
-- Git and GitHub - Version control
-- npm - Package management
+The portfolio content was drafted from the supplied résumé and checked against the public GitHub repositories and deployed project sites. Before publishing, review the wording and links in `index.html`, especially the current master’s program and graduation status. The site intentionally omits the résumé’s date of birth and phone number.
 
-## Featured Projects
+## Files
 
-### MedPal - Healthcare Platform
-- Digital platform for managing clinics, doctors, and patients
-- Role-based access control (Clinic, Doctor, Patient)
-- Appointment scheduling and medical records management
-- Tech Stack: React 19, Supabase, Bootstrap 5, Chart.js
-
-### Bursat - Scholarship Platform
-- Centralized scholarship aggregator for Kosovar students
-- Automated data collection with n8n
-- Real-time scholarship updates
-- Tech Stack: React, Tailwind CSS, Supabase, n8n
-
-## Installation and Setup
-
-1. Clone the repository
-   git clone https://github.com/GentianaMehana/Portfolio.git
-   cd Portfolio
-
-2. Install dependencies
-   npm install
-
-3. Run the development server
-   npm start
-
-4. Build for production
-   npm run build
-
-## Contact Form Setup
-
-To make the contact form work, add your EmailJS credentials in src/components/Contact.js:
-
-- Service ID: portfolio
-- Template ID: template_vtrn9ve
-- Public Key: gQpAgMUMEyNxbkcQa
-
-## Deployment
-
-The site is deployed on Netlify. Any push to the main branch automatically triggers a new deployment.
-
-## Contact
-
-- Email: mehanagenta@gmail.com
-- GitHub: GentianaMehana
-- LinkedIn: gentiana-mehana-6b63792a1
-- Location: Vushtrri, Kosovo
-
-## License
-
-Copyright 2024 Gentiana Mehana. All rights reserved.
-
----
-
-Star this repository if you like it!
+- `index.html` — page content and metadata
+- `styles.css` — responsive layout, typography, and live project preview frames
+- `script.js` — mobile navigation and current year
