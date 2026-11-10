@@ -1,27 +1,36 @@
 # Gentiana Mehana — Portfolio
 
-A responsive, single-page portfolio built with semantic HTML, modern CSS, and a small amount of vanilla JavaScript. There is no build step or package installation.
+A responsive React portfolio built with Vite. The page introduces Gentiana, presents three deployed projects, and includes about, skills, education, and contact sections. Every project card links to its live website.
 
-The Work section includes the three public projects: Elsewhere — Prishtina, MedPal, and Bursat. Elsewhere uses three locally optimized photos featured in the live project, with photographer and license credits displayed beside each image. MedPal and Bursat use lazy-loaded frames to show their real deployed interfaces. Each project links to its live site and source repository. `netlify.toml` configures Netlify to publish the static site directly from the repository root.
+## Run locally
 
-## Preview locally
-
-Open `index.html` in a browser, or serve this folder with any static web server. For example:
+Install the dependencies and start Vite:
 
 ```sh
-npx serve .
+npm install
+npm run dev
 ```
 
-## Publish
+Build the static production site with:
 
-The folder is ready for a static host such as Netlify, Vercel, or GitHub Pages. Deploy the contents of this directory as the site root.
+```sh
+npm run build
+```
 
-## Personal details
+## Deploy
 
-The portfolio content was drafted from the supplied résumé and checked against the public GitHub repositories and deployed project sites. Before publishing, review the wording and links in `index.html`, especially the current master’s program and graduation status. The site intentionally omits the résumé’s date of birth and phone number.
+The repository is configured for Netlify. Netlify runs `npm run build` and publishes the generated `dist` directory.
 
-## Files
+## Project links
 
-- `index.html` — page content and metadata
-- `styles.css` — responsive layout, typography, and live project preview frames
-- `script.js` — mobile navigation and current year
+- Elsewhere — Prishtina: https://elsewhere-prishtina.netlify.app/
+- MedPal: https://medpalplatform.netlify.app/
+- Bursat: https://bursat.netlify.app/
+
+## Structure
+
+- `src/App.jsx` — React page and project components
+- `src/main.jsx` — React entry point and global stylesheet import
+- `styles.css` — responsive layout and visual design
+- `public/assets/` — optimized Elsewhere project photography
+- `index.html` — Vite HTML shell and page metadata
